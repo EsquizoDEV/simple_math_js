@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasa de cambio</title>
+</head>
+<body>
+
+    <header>
+        <ol>
+            <li>
+                <a href="../index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="./salarios.html">Análisis de datos</a>
+            </li>
+            <li>
+                <a href="./moda.html"> Moda y mediana</a>
+            </li>
+        </ol>
+    </header>
+
+    <h1>Tasa de cambio</h1>
+    
+    <form>
+        <label for="inputPeriod">¿Para que periodo deseas conocer la tasa de cambio del PIB? <br/> Ejemplo:1985-1996</label>
+        <br/>
+        <input id="inputPeriod" type="string" >
+
+        <button type="button" onClick="tasaCambio()">Calcular</button>
+    </form>
+
+    <script src="tasaDeCambio.js"></script>
+</body>
+</html>

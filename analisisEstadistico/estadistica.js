@@ -11,10 +11,6 @@ function mediaAritmética(lista){
     const sumaLista = lista.reduce((valorAcum = 0, nuevoElemento)=> {
         return valorAcum + nuevoElemento
     });
-    // for(let i=0; i<lista.length; i++){
-    //     sumaLista = sumaLista + lista[i];
-    // }
-    
     
     promedio = sumaLista / lista.length;
     

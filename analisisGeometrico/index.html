@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometric figures</title>
+</head>
+<body>
+    <header>
+        <ol>
+            <li>
+                <a href="../index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="../precios/descuentos.html">Cupones y descuentos</a>
+            </li>
+            <li>
+                <a href="../analisisEstadistico/estadistica.html">Análisis estadístico</a>
+            </li>
+        </ol>
+    </header>
+
+    <h1>
+        CALCULADORA DE FIGURAS GEOMÉTRICAS
+    </h1>
+    
+    <section>
+        <h2>Análisis de un cuadrado</h2>
+        
+        <form>
+            <label for="inputSquare">
+                Escribe el lado de tu cuadrado
+            </label>
+
+            <input id="inputSquare" type="number"/>
+            
+            <button type="button" onClick="perimetroSquare()">
+                Calcular el perimetro
+            </button>
+            
+            <button type="button" onClick="areaSquare()">
+                Calcular el área
+            </button>
+
+        </form>
+    </section>
+
+    <section>
+        <h2>Análisis de un triángulo</h2>
+        
+        <form>
+            <label for="inputTriangle">
+                Escribe los lados del triangulo de la siguiente forma: <br>
+                lado1, lado2, base <br>
+            </label>
+
+            <input id="inputTriangle" type="text"/>
+            
+            <button type="button" onClick="perimetroTriangle()">
+                Calcular el perimetro
+            </button>
+            
+            <button type="button" onClick="areaTriangle()">
+                Calcular el área
+            </button>
+
+             <button type="button" onClick="heightTriangle()">
+                Calcular la altura
+            </button>
+
+        </form>
+    </section>
+    <script src="./geometricFigures.js"></script>
+</body>
+</html>
